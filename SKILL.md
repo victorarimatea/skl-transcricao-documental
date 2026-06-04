@@ -289,4 +289,4 @@ Passos: registrar limitação → buscar na fonte oficial → verificar autentic
 
 ---
 
-*Skill mantida pelo ecossistema DTD/SETIS/SES-DF. Consulte o CONTEXTO.md em github.com/victorarimatea/ecossistema-sumario para visão completa do ecossistema.*
+*Skill mantida pelo ecossistema DTD/SETIS/SES-DF. Consulte o CONTEXTO.md em github.com/victorarimatea/hub-fonte para visão completa do ecossistema.*
