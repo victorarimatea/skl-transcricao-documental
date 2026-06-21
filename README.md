@@ -1,8 +1,8 @@
-# skill-transcricao-documental
+# skl-transcricao-documental
 
 **Tipo:** S — Skill
 **ID:** S05
-**Versão:** v1.0 — 2026-06-02
+**Versão:** v1.1 — 2026-06-21
 **Visibilidade:** Público
 **Mantenedor:** victorarimatea
 
@@ -19,6 +19,11 @@ Opera em duas fases:
   portarias ministeriais, resoluções CFM e ANVISA)
 - **Fase 2:** Referências internacionais bilíngues (EN + tradução PT-BR)
 
+A partir da v1.1, o pipeline incorpora capacidades amadurecidas em
+documentos de estrutura complexa (mapeamento de estrutura híbrida,
+extração de tabelas orçamentárias LOA, cardápio de estratégias de
+design e revisão estrutural por modelo externo).
+
 ---
 
 ## Como usar
@@ -33,7 +38,7 @@ no contexto de produção documental.
 ## Repositório de saída
 
 Os documentos transcritos são armazenados em:
-→ [governanca-ses-df](https://github.com/victorarimatea/governanca-ses-df) (D01)
+→ [doc-governanca-ses-df](https://github.com/victorarimatea/doc-governanca-ses-df) (D01)
 
 ---
 
@@ -41,7 +46,7 @@ Os documentos transcritos são armazenados em:
 
 | Arquivo | Conteúdo |
 |---|---|
-| `SKILL.md` | Instruções completas para o Claude executar o pipeline (7 etapas) |
+| `SKILL.md` | Instruções completas para o Claude executar o pipeline (10 etapas, incluindo 7.5; seções §LOA, §DESIGN, §BACKLOG) |
 | `backlog-versoes.md` | Histórico de versões da skill |
 | `INDICE.md` | Mapa completo de arquivos |
 
